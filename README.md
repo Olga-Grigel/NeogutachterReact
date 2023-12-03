@@ -1,2 +1,0 @@
-# NeogutachterReact
-Создала репозиторий.

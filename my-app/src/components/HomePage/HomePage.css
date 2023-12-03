@@ -1,0 +1,86 @@
+@import url(../../fonts/font.css);
+
+.homepage {
+  background-color: #F5F5F5;
+  border: 1px solid red;
+  display: flex;
+}
+
+.homepage_blockwithbutton {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  margin: 113px 0 0 145px;
+}
+
+.homepage_blockwithtext {
+  max-width: 533px;
+  margin: 10px 8px;
+  border: 1px solid red;
+}
+.homepage_title { 
+  border: 1px solid red;
+  font-family: 'LexendDeca', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68px;  
+  margin: 0;
+  color: #393939;
+}
+
+.homepage_margin {
+  
+}
+.homepage_highlighting {
+  position: relative;
+  background-color: rgba(255,255,100,0.1);
+  z-index: 1;
+  display: inline-block;
+}
+.homepage_highlighting:after {
+  content: attr(title);
+  position: absolute;
+  color: #393939;
+  top: 3px;
+  left: -6px;
+  width: calc(100% + 16px);
+  height: calc(100% - 6px);
+  background-color: rgba(219,255,0);
+  z-index: -1;
+  line-height: 40px;
+}
+
+.homepage_button {
+  border: 1px solid red;
+  height: 32px;
+  width: 304px;
+}
+.homepage_arrow {
+  background-image: url(../../images/ArrowLong.png);
+  background-size:cover;
+  border: 1px solid red;
+  height: 182px;
+  width: 140px;
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+}
+.homepage_containwithimmages {
+  max-height: 584px;
+  max-width: 812px;
+  border: 1px solid red;
+}
+.homepage_containwithimmage {
+  transform: skew(-15deg)  
+}
+/* .homepage_immage {
+  background-image: url(../../images/photo1.png);
+  border: 1px solid red;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.homepage_immage1 {
+  width: 202.19px;
+  height: 348.654px;
+} */
