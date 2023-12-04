@@ -13,8 +13,10 @@ function HomePageHeader() {
           <h1 className="homepage_title homepage_margin">Hier den besten <br/>Kfz-Gutachter finden!</h1>
           <h2 className="homepage_title homepage_highlighting">Wir übernehmen</h2>
           <h2 className="homepage_title homepage_highlighting">das für dich.</h2>
-        </div>        
-        <button className="homepage_button">Gutachter kostenlos anfragen<div className="homepage_button-arrow"></div></button>
+        </div>
+        <div className="homepage_containbutton"> 
+          <button className="homepage_button"><p className="homepage_button-text">Gutachter kostenlos anfragen</p><div className="homepage_button-arrow"></div></button>
+        </div>
         <div className="homepage_arrow"></div>
       </div>
       <div className="homepage_containwithimmages">        

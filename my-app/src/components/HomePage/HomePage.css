@@ -51,11 +51,38 @@
   z-index: -1;
   line-height: 40px;
 }
-
+.homepage_containbutton {
+}
 .homepage_button {
   border: 1px solid red;
+  background-color: #0075FF;
+  border-radius: 32px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 20px 16px 24px;
+}
+.homepage_button:hover{
+  cursor: pointer;
+}
+.homepage_button-text {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  margin-right: 8px;
+  display: inline-block;
+}
+.homepage_button-arrow {
+  background-image: url(../../images/ArrowButtonHeader.svg);
+  color: white;
+  background-color: #0075FF;
+  width: 32px;
   height: 32px;
-  width: 304px;
+  display: inline-block;
 }
 .homepage_arrow {
   background-image: url(../../images/ArrowLong.png);
