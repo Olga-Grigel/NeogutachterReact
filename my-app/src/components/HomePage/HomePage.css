@@ -11,6 +11,7 @@
   flex-direction: column;
   border: 1px solid red;
   margin: 113px 0 0 145px;
+  position: relative;
 }
 
 .homepage_blockwithtext {
@@ -63,8 +64,8 @@
   height: 182px;
   width: 140px;
   position: absolute;
-  bottom: 5px;
-  right: 20px;
+  bottom: 4px;
+  right: 44px;
 }
 .homepage_containwithimmages {
   max-height: 584px;
