@@ -1,8 +1,9 @@
 .immage {
-    border: 1px solid red;
+    transform: skewX(10deg);
 }
 
 .containwithimmage {
     border-radius: 34.785px;
-    border: 1px solid red;
+    overflow: hidden;
+    transform: skewX(-10deg);
 }

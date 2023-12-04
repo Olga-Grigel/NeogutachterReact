@@ -20,11 +20,9 @@ function HomePageHeader() {
         <div className="homepage_arrow"></div>
       </div>
       <div className="homepage_containwithimmages">        
-      <div className="homepage_containwithimmage"><ImmageHeader path = {image1} /></div>
-        {/* <ImmageHeader path = {image1} /> */}
-        {/* { <ImmageHeader path = {image2} />}
-        { <ImmageHeader path = {image3} />} */}
-        
+        <div className="homepage_containwithimmage homepage_containwithimmage-man"><ImmageHeader path = {image1} /></div>
+        <div className="homepage_containwithimmage homepage_containwithimmage-car"><ImmageHeader path = {image2} /></div>
+        <div className="homepage_containwithimmage homepage_containwithimmage-like"><ImmageHeader path = {image3} /></div>        
       </div>
       
     </div>

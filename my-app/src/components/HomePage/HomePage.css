@@ -3,7 +3,7 @@
 .homepage {
   background-color: #F5F5F5;
   border: 1px solid red;
-  display: flex;
+  height: 787px;
 }
 
 .homepage_blockwithbutton {
@@ -11,7 +11,7 @@
   flex-direction: column;
   border: 1px solid red;
   margin: 113px 0 0 145px;
-  position: relative;
+  position: absolute;
 }
 
 .homepage_blockwithtext {
@@ -95,20 +95,32 @@
   right: 44px;
 }
 .homepage_containwithimmages {
-  max-height: 584px;
-  max-width: 812px;
+  height: 584px;
+  width: 100%;
   border: 1px solid red;
+  position: relative;
+}
+.homepage_containwithimmage-man {
+  width: 202px;
+  height: 349px;
+  top: 0;
+  right: 450px;
+  z-index: 3;
+}
+.homepage_containwithimmage-car {
+  width: 248px;
+  height: 428px;
+  top: 195px;
+  right: 148px;
+  z-index: 3;
+}
+.homepage_containwithimmage-like {
+  width: 215px;
+  height: 329px;
+  top: 64px;
+  right: 1px;
+  z-index: 2;
 }
 .homepage_containwithimmage {
-  transform: skew(-15deg)  
+  position: absolute;
 }
-/* .homepage_immage {
-  background-image: url(../../images/photo1.png);
-  border: 1px solid red;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.homepage_immage1 {
-  width: 202.19px;
-  height: 348.654px;
-} */
