@@ -1,26 +1,29 @@
 @import url(../../fonts/font.css);
 
 .homepage {
+  background-image: url(../../images/BackgraundPicrureHeader.svg);
+  background-repeat: no-repeat;
+  background-position: right -2px;
   background-color: #F5F5F5;
-  border: 1px solid red;
-  height: 787px;
+  height: 723px;
+  padding: 28px 48px 36px 48px;
+}
+.homepage_header {
+  height: 104px;
+  margin-bottom: 28px;
 }
 
 .homepage_blockwithbutton {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid red;
-  margin: 113px 0 0 145px;
+  margin: 113px 0 0 97px;
   position: absolute;
+  z-index: 4;
 }
 
 .homepage_blockwithtext {
   max-width: 533px;
   margin: 10px 8px;
-  border: 1px solid red;
 }
 .homepage_title { 
-  border: 1px solid red;
   font-family: 'LexendDeca', sans-serif;
   font-size: 48px;
   font-style: normal;
@@ -54,7 +57,7 @@
 .homepage_containbutton {
 }
 .homepage_button {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background-color: #0075FF;
   border-radius: 32px;
   color: white;
@@ -62,6 +65,8 @@
   align-items: center;
   justify-content: center;
   padding: 16px 20px 16px 24px;
+  margin-top: 27px;
+  border: none;
 }
 .homepage_button:hover{
   cursor: pointer;
@@ -87,40 +92,40 @@
 .homepage_arrow {
   background-image: url(../../images/ArrowLong.png);
   background-size:cover;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 182px;
   width: 140px;
   position: absolute;
   bottom: 4px;
-  right: 44px;
+  right: 32px;
 }
 .homepage_containwithimmages {
   height: 584px;
   width: 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: relative;
+}
+.homepage_containwithimmage {
+  position: absolute;
 }
 .homepage_containwithimmage-man {
   width: 202px;
   height: 349px;
-  top: 0;
-  right: 450px;
+  top: 6px;
+  right: 455px;
   z-index: 3;
 }
 .homepage_containwithimmage-car {
   width: 248px;
   height: 428px;
-  top: 195px;
-  right: 148px;
+  top: 155px;
+  right: 211px;
   z-index: 3;
 }
 .homepage_containwithimmage-like {
   width: 215px;
   height: 329px;
-  top: 64px;
-  right: 1px;
+  top: 71px;
+  right: 5px;
   z-index: 2;
-}
-.homepage_containwithimmage {
-  position: absolute;
 }

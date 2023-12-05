@@ -8,6 +8,7 @@ import image3 from '../../images/photo3.png';
 function HomePageHeader() {
   return (
     <div className="homepage">
+      <div className="homepage_header"></div>
       <div className="homepage_blockwithbutton">
         <div className="homepage_blockwithtext">
           <h1 className="homepage_title homepage_margin">Hier den besten <br/>Kfz-Gutachter finden!</h1>
