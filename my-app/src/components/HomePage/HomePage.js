@@ -1,6 +1,6 @@
 import './HomePage.css';
 import ImmageHeader from '../ImmageHeader/ImmageHeader'
-//const immage1 = require("../../images/photo1.png")
+import HomepageHeader from '../HomepageHeader/HomepageHeader'
 import image1 from '../../images/photo1.png';
 import image2 from '../../images/photo2.png';
 import image3 from '../../images/photo3.png';
@@ -8,8 +8,8 @@ import image3 from '../../images/photo3.png';
 function HomePageHeader() {
   return (
     <div className="homepage">
-      <div className="homepage_header"></div>
-      <div className="homepage_blockwithbutton">
+       <HomepageHeader />
+      <div className="homepage_blockwithbutton">       
         <div className="homepage_blockwithtext">
           <h1 className="homepage_title homepage_margin">Hier den besten <br/>Kfz-Gutachter finden!</h1>
           <h2 className="homepage_title homepage_highlighting">Wir übernehmen</h2>
