@@ -1,0 +1,52 @@
+.navigation__link {
+  height: 24px;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  color: #252525;
+  vertical-align: top;
+  margin: 0;
+}
+
+@media screen and (max-width: 1405px) {
+  .navigation__link {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .navigation__link {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .navigation__link {
+    font-size: 8px;
+  }
+}
+
+.navigation__linkmargin {
+  margin: 0 16px;
+}
+
+@media screen and (max-width: 1280px) {
+  .navigation__linkmargin {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+
+.navigation__icon {
+  vertical-align: top;
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 1280px) {
+  .navigation__icon {
+    margin-right: 4px;
+  }
+}
