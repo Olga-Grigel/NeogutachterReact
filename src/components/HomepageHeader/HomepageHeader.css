@@ -1,4 +1,4 @@
-.homepage_header {
+.header {
   margin-bottom: 28px;
   padding: 32px 32px 32px 48px;
   background-color: #DBFF00;
@@ -9,16 +9,16 @@
   display: flex;
 }
 
-.homepage_header__logo_link {
+.header__logolink {
   vertical-align: bottom;
 }
 
-.homepage_header__logo {
+.header__logo {
   vertical-align: bottom;
 }
 
 @media screen and (max-width: 1280px) {
-  .homepage_header__logo {
+  .header__logo {
     width: 180px;
   }
 }

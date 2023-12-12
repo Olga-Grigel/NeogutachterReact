@@ -1,8 +1,3 @@
-.immage {
-    transform: skewX(10deg);
-    height: 100%;
-}
-
 .containwithimmage {
     height: 100%;
     border-radius: 34.785px;
@@ -11,4 +6,9 @@
     display: flex;
     justify-content: center;
     filter: drop-shadow(0px 17.393px 26.089px rgba(48, 49, 51, 0.10)) drop-shadow(0px 0px 1.087px rgba(48, 49, 51, 0.05)) drop-shadow(17.393px 17.393px 52.178px rgba(0, 0, 0, 0.15));
+}
+
+.containwithimmage__immage {
+    transform: skewX(10deg);
+    height: 100%;
 }
